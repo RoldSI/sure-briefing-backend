@@ -20,7 +20,7 @@ def check_and_create_user(user_id):
         default_user = {
             "user_id": user_id,
             "stripe_id": None,
-            "subscribed": False,
+            "subscribed": True,
             "deliver": {"email": None},
             "region": "europe"
         }
